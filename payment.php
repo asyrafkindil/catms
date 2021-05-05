@@ -73,8 +73,7 @@ $query = mysqli_query($con, "SELECT * FROM reservation natural join combo WHERE 
                                   <label class="col-lg-2 control-label">Mode of Payment</label>
                                   <div class="col-lg-5">
                                     <select class="form-control select2 " id="exampleSelect1" name="mode" placeholder="Select occasion" required>
-                                      <option>Bank to Bank</option>
-                                      <option>Pera Padala</option>
+                                      <option>Online Transfer</option>
                                       <option>Cash</option>
                                     </select>
                                   </div>

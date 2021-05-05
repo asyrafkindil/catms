@@ -1,7 +1,6 @@
 <?php include 'header.php';?>
 
 <body>
-	<?php include 'navbar.php';?>
 	<?php include 'menu-tab.php';?>
 	
 		<div class = "content">

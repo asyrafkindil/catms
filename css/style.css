@@ -7,9 +7,9 @@ body{
 	font-size: 12px;
 	line-height: 22px;
 	color: #666;
-	border-top: 3px solid #eee;
+	/* border-top: 3px solid #eee; */
 	background:#343434 url("../img/back.png") repeat;  
-	padding-top: 37px;
+	/* padding-top: 37px; */
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -408,6 +408,26 @@ text-decoration:none;
 
 /* Navbar */
 
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+  
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+
 .navbar *{
 	font-weight: normal !important;
 	text-shadow:none !important;
@@ -491,9 +511,9 @@ text-decoration:none;
 
 header{
 	border-top: 1px solid #ccc;
-	padding: 25px 0px 15px 0px;
+	padding: 15px 0px 15px 0px;
 	background: #fafafa url("../img/cream.png") repeat;
-	border-bottom: 1px solid #ddd;
+	/* border-bottom: 1px solid #ddd; */
 }
 
 header .container {

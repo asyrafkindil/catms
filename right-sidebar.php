@@ -13,7 +13,7 @@
                                 </div>
                 <div class="form-group">
                                   <div class="col-lg-offset-1 col-lg-10">
-                                    <button type="submit" class="btn btn-sm btn-success btn-block">Search</button>                                  
+                                    <button type="submit" class="btn btn-sm btn-primary btn-block">Search</button>                                  
                                   </div>
                                 </div>
                               </form>
@@ -44,7 +44,7 @@
                                 <hr />
                                 <p><i class="fa fa-home"></i>&nbsp; Address<strong>:</strong> Jalan Sultan Ismail, Kuala Lumpur </p>
                 <hr />
-        <p><i class="fa fa-facebook"></i>&nbsp; Facebook<strong>:</strong> facebook.com/kaszcatering.com </p>
+        <p><i class="fa fa-facebook"></i>&nbsp; Facebook<strong>:</strong> facebook.com/kaszcatering </p>
                 <hr />              
                                 <!-- Button -->
                               

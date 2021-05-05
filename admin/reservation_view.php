@@ -21,11 +21,11 @@ endif;
 </head>
 
 <body>
-<h3 style="text-align:center">Chimney's Catering Services</h3>
-<h4 style="text-align:center">Mabini Street, Fisheries Avenue, Talisay City</h4>
-<h4 style="text-align:center">Tel. No. : 435-1114</h4>
-<h4 style="text-align:center">Email : chimneycatering@yahoo.com</h4>
-<h4 style="text-align:center">Facebook : facebook.com/chimneycatering</h4>
+<h3 style="text-align:center">KASZ Catering Services</h3>
+<h4 style="text-align:center">Kuala Lumpur</h4>
+<h4 style="text-align:center">Tel. No. : 03-7474777</h4>
+<h4 style="text-align:center">Email : kaszcatering@gmail.com</h4>
+<h4 style="text-align:center">Facebook : facebook.com/kaszcatering</h4>
 <hr>
 
 <table style="width:100%">
@@ -82,7 +82,7 @@ include('../includes/dbcon.php');
                       <tr>  
                         <td class="label">Team Assigned: </td>
                         <td><?php echo $team;?></td>
-                        <td class="label">Motif: </td>
+                        <td class="label">Theme: </td>
                         <td><?php echo $motif;?></td>
                       </tr>  
 </table>

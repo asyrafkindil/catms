@@ -6,7 +6,6 @@ endif;
 <?php include 'header.php';?>
 
 <body>
-	<?php include 'navbar.php';?>
 	<?php include 'menu-tab.php';?>
 	
 		<div class = "content">
@@ -29,11 +28,11 @@ endif;
                       <b>Reminder: Please print your reservation summary and take note of your reservation code for reservation inquiry.</b>
                     </div>
 
-                    <h3 style="text-align:center">Lee Pipez's Catering Services</h3>
-<h4 style="text-align:center">Talisay City</h4>
-<h4 style="text-align:center">Tel. No. : 435-00787</h4>
-<h4 style="text-align:center">Email : emoblazz@gmail.com</h4>
-<h4 style="text-align:center">Facebook : facebook.com/progaddictbylee</h4>
+                    <h3 style="text-align:center">KASZ Catering Services</h3>
+<h4 style="text-align:center">Kuala Lumpur</h4>
+<h4 style="text-align:center">Tel. No. : 03-7474777</h4>
+<h4 style="text-align:center">Email : kaszcatering@gmail.com</h4>
+<h4 style="text-align:center">Facebook : facebook.com/kaszcatering</h4>
 <hr>
 
 <table style="width:100%">
@@ -112,7 +111,7 @@ include('includes/dbcon.php');
                         <td></td>
                         <td></td>
                         <td>Payable: </td>
-                        <td>P <?php echo number_format($payable,2);?></td>
+                        <td>RM<?php echo number_format($payable,2);?></td>
                       </tr> 
                       <tr>  
                         <td></td>

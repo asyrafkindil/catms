@@ -47,7 +47,7 @@ endif;
       
       <!-- Page heading -->
       <div class="page-head">
-        <h2 class="pull-left"><i class="fa fa-home"></i> Dashboard</h2>
+        <h2 class="pull-left"><i class="fa fa-home"></i> Reservation</h2>
 
         <!-- Breadcrumb -->
         <div class="bread-crumb pull-right">

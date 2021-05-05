@@ -1,11 +1,8 @@
-4
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'header.php';?>
 
 <body>
-
-<?php include 'navbar.php';?>
 <?php include 'menu-tab.php';?>
 <!-- Main content starts -->
 
@@ -53,7 +50,7 @@
 								$pic=$rowm['menu_pic'];
 ?>                        
                       <a href="images/<?php echo $pic;?>" class="prettyPhoto[pp_gal]" title="<?php echo $menu." - RM".$price;?>" alt="<?php echo $menu." - RM".$price;?>">
-                      		<img src="images/<?php echo $pic;?>" alt="<?php echo $menu." - P".$price;?>">
+                      		<img src="images/<?php echo $pic;?>" alt="<?php echo $menu." - RM".$price;?>">
                       		
                       </a>
                      <?php }?>

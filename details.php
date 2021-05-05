@@ -9,7 +9,6 @@ javascript:window.history.forward(1);
 //--></script>
 
 <body>
-	<?php include 'navbar.php';?>
 	<?php include 'menu-tab.php';?>
 	
 		<div class = "content">
@@ -63,7 +62,7 @@ javascript:window.history.forward(1);
                                 </div>
 
                                 <div class="form-group">
-                                  <label class="col-lg-2 control-label">Motif</label>
+                                  <label class="col-lg-2 control-label">Theme</label>
                                   <div class="col-lg-5">
                                     <input type="text" class="form-control" placeholder="Write theme/motif" name="motif">
                                   </div>
@@ -72,11 +71,9 @@ javascript:window.history.forward(1);
                                 <div class="form-group">
                                   <label class="col-lg-2 control-label">Occasion</label>
                                   <div class="col-lg-5">
-                                    <select class="form-control select2 " id="exampleSelect1" name="ocassion" placeholder="Select occasion" required>
-                                      <option>Baptism</option>
+                                    <select class="form-control select2 " id="exampleSelect1" name="ocassion" placeholder="Select occasion" required>                                    
                                       <option>Birthday</option>
-                                      <option>Christmas Party</option>
-                                      <option>Funeral</option>
+                                      <option>Party</option>
                                       <option>Wedding</option>
                                       <option>Others</option>
                                     </select>
@@ -118,7 +115,7 @@ include('includes/dbcon.php');
               <div class="widget">
                 <!-- Widget title -->
                 <div class="widget-head">
-                  <div class="pull-left"><?php echo $name;?> - P<?php echo $price;?></div>
+                  <div class="pull-left"><?php echo $name;?> - RM<?php echo $price;?></div>
                   <div class="widget-icons pull-right">
                   </div>  
                   <div class="clearfix"></div>

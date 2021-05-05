@@ -7,7 +7,7 @@ body{
 	font-size: 12px;
 	line-height: 22px;
 	color: #666;
-	border-top: 3px solid #eee;
+	/* border-top: 3px solid #eee; */
 	background:#343434 url("../img/back.png") repeat;  
 	padding-top: 37px;
 	-webkit-font-smoothing: antialiased;

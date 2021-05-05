@@ -1,7 +1,6 @@
 <?php include 'header.php';?>
 
 <body>
-	<?php include 'navbar.php';?>
 	<?php include 'menu-tab.php';?>
 	
 		<div class = "content">
@@ -63,7 +62,7 @@
                                   <label class="col-lg-2 control-label"></label>
                                   <div class="col-lg-5">
                                     <label class="checkbox-inline">
-                                      <input type="checkbox" id="inlineCheckbox1" value="option1" required> I agree to the <a href="#facilities" data-toggle="modal">terms and condtion</a> of the Chimney's Catering
+                                      <input type="checkbox" id="inlineCheckbox1" value="option1" required> I agree to the <a href="#facilities" data-toggle="modal">terms and condtion</a> of the KASZ Catering
                                     </label>
 									</div>
 									</div>

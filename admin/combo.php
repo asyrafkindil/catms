@@ -187,7 +187,7 @@ include('../includes/dbcon.php');
               <div class="widget">
                 <!-- Widget title -->
                 <div class="widget-head">
-                  <div class="pull-left"><?php echo $name;?> - P<?php echo $price;?></div>
+                  <div class="pull-left"><?php echo $name;?> - RM<?php echo $price;?></div>
                   <div class="widget-icons pull-right">
                     <a href="#update" data-target="#update<?php echo $id;?>" data-toggle="modal"><i class="fa fa-pencil "></i></a>
                     <a href="#delete" data-target="#delete<?php echo $id;?>" data-toggle="modal"><i class="fa fa-times"></i></a>

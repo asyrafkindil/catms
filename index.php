@@ -1,7 +1,6 @@
 <?php include 'header.php';?>
 
 <body>
-	<?php include 'navbar.php';?>
 	<?php include 'menu-tab.php';?>
 	
 		<div class = "content">
@@ -50,20 +49,24 @@
 			<div class = "class = "col-lg-12">
 				<h1 class = "page-title center" style = "padding-top:50px;"><b>Company Vision & Mission</b></h1>
 			</div>
-				<div class = "col-lg-4 col-md-4 thumb">
+				<!-- <div class = "col-lg-4 col-md-4 thumb">
 					<img src = "img/77.jpg">		
-				</div>
-				<div class = "col-sm-8 col-lg-6 col-md-6">
-					<h2 class = "welcome">The food that makes you feel good</h2>
+				</div> -->
+				<div class = "col-sm-8 col-lg-6 col-md-6 col-md-offset-3" style="text-align: justify;">
+					<center><h2 class = "welcome" style="margin-bottom: 10px;">"The food that makes you feel good"</h2></center>
 					<p class = "body-text">The Catering Services offers great satisfaction and awesome experience not only in food but in all of their services that guarantee the customers needs. 
 					Through the great effort of their kitchen personnel and their catering crews they are successfully giving the services and a high quality value of foods that suites to all occasions and theme.
 					</p>
 					<br/>
 					<p class = "body-text">
-					Wanting to give their clients service and a catering experience like no other, Chimney's Catering has always strived to provide something new to their patrons. This is evident in the constantly expanding menus and packages that they offer.
-“We attend seminars and trainings in order to see the newest trends that we can use here in the country,”Chimney Catering believes that we have to continuously learn new approaches in providing for the needs
+					Wanting to give their clients service and a catering experience like no other, KASZ Catering has always strived to provide something new to their patrons. 
+					This is evident in the constantly expanding menus and packages that they offer. “We attend seminars and trainings in order to see the newest trends that we can use here in the country,
+					”KASZ Catering believes that we have to continuously learn new approaches in providing for the needs
 					</p>
 				</div>
+				<!-- <div class = "col-lg-4 col-md-4 thumb">
+					<img src = "img/77.jpg">		
+				</div> -->
 			</div>
 		</div>
 		

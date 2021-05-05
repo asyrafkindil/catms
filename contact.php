@@ -1,7 +1,6 @@
 <?php include 'header.php';?>
 
 <body>
-	<?php include 'navbar.php';?>
 	<?php include 'menu-tab.php';?>
 	
 		<div class = "content">
@@ -51,7 +50,7 @@
                                 </div>
 								<div class="form-group">
                                   <div class="col-lg-offset-3 col-lg-8">
-                                    <button  class="btn btn-sm btn-success btn-block">Send</button>                                  
+                                    <button  class="btn btn-sm btn-primary btn-block">Send</button>                                  
                                   </div>
                                 </div>
                               </form>
@@ -60,7 +59,7 @@
 						</div>
 					</div>		
 				</div>				
-				<div class = "col-md-4 pull-right">
+				<!-- <div class = "col-md-4 pull-right">
 					<div class = "widget">
 						<div class = "widget-head center">
 							 <a class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"><span class="fa fa-facebook"></span></a>							 
@@ -68,7 +67,7 @@
 							 <a class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);"><span class="fa fa-twitter"></span></a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>	
 		</div>
 		<div class = "content">
